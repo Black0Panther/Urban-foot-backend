@@ -3,7 +3,7 @@ const SneaksAPI = require("sneaks-api");
 const cors = require("cors");
 
 const app = express();
-const port = 5002;
+const port = 5004;
 const sneaks = new SneaksAPI();
 
 // Middleware
